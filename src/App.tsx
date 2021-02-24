@@ -1,8 +1,20 @@
-
+import {Button} from './components/button';
 
 function App() {
-  return (
-    <h1>Hello World</h1>
+  return (  
+    <div>
+      <Button color="red">
+         Pokemon Red 
+      </Button>
+
+      <Button color="blue">
+         Pokemon Blue 
+      </Button>
+      
+      <Button color="yellow">
+         Pokemon Yellow 
+      </Button>    
+    </div>    
   );
 }
 
