@@ -1,19 +1,10 @@
-import {Button} from './components/button';
+import { ExperienceBar } from './components/ExperienceBar';
+import './styles/global.css';
 
 function App() {
   return (  
-    <div>
-      <Button color="red">
-         Pokemon Red 
-      </Button>
-
-      <Button color="blue">
-         Pokemon Blue 
-      </Button>
-      
-      <Button color="yellow">
-         Pokemon Yellow 
-      </Button>    
+    <div className="container">
+      <ExperienceBar />
     </div>    
   );
 }
