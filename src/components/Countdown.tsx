@@ -1,10 +1,8 @@
-import { useEffect, useState } from "react";
-import { start } from "repl";
-import styles from "../styles/components/Countdown.module.css"
+import { useEffect, useState } from 'react';
+import styles from '../styles/components/Countdown.module.css';
 
 export function Countdown () {
 
-  // const [time, setTime] = useState(25 * 60);
   const [time , setTime] = useState(25 * 60);
   const [active, setActive] = useState();
 
@@ -15,7 +13,7 @@ export function Countdown () {
   const [secondLeft, secondRight] = String(seconds).padStart(2, '0').split('');
 
   function startCountdown() {
-    setActive(true); 
+    setActive(true);
   }
 
   useEffect(() => {
