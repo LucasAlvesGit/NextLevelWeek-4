@@ -1,8 +1,8 @@
-import style from "../styles/components/Profile.module.css";
+import styles from "../styles/components/Profile.module.css";
 
 export function Profile () {
   return (
-    <div className={style.profileContainer}>
+    <div className={styles.profileContainer}>
       <img src="https://github.com/lucasalvesgit.png" alt="perfil Lucas Alves"/>
       <div>
         <strong>Lucas Alves</strong>
