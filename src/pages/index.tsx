@@ -1,5 +1,5 @@
 import { CompletedChallenges } from "../components/CompletedChallenges";
-import { Countdown } from "../components/CountDown";
+import { Countdown } from "../components/countdown";
 import { ExperienceBar } from "../components/ExperienceBar";
 import { Profile } from "../components/Profile";
 
